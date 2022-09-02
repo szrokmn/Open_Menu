@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.container{
+    width: 200px;
+    height: 300px;
+    text-align: center;    
+}
+.menu1{
+    background-color: darkgoldenrod;
+   
+}
+.btn{
+    background-color: darkgoldenrod;
+    border: none;    
+    padding: 8px; 
+    color:white;   
+}
+.btn i {
+    color: black;
+   float: right;
+}
+.menu2{
+    background-color: rgb(228, 168, 16);
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px 0;    */
+    gap: 15px;
+}
+.menu2 a:hover{
+    background-color:bisque;
+    padding: 10px;
+}
